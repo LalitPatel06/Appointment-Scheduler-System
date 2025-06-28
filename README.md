@@ -37,6 +37,7 @@ AppointmentScheduler/
 │
 └── README.md
 
+---
 🧑‍⚕️ Roles & Functionalities
 👤 User
 Book new appointment (name, problem, doctor, time)
