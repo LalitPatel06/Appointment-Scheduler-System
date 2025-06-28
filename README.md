@@ -21,93 +21,76 @@ A console-based Java application to manage medical appointments efficiently with
 - **Build Tool:** Manual (VS Code / Terminal)
 
 ## 📟 Console Output (Sample Flow)
-Welcome to Appointment Scheduler
+Welcome to Appointment Scheduler <br>
 Are you Admin? (yes/no): no
 
 === User Dashboard ===
-
-Book New Appointment
-
-View All Appointments
-
-Cancel Appointment
-
-Exit
+1. Book New Appointment
+2. View All Appointments
+3. Cancel Appointment
+4. Exit <br>
 Enter your choice: 1
 
-Enter your name: Rahul
+Enter your name: Rahul <br>
 Select your problem:
-
-Chest
-
-Eye
-
-Teeth
-
-Skin
-
-General
+1. Chest
+2. Eye
+3. Teeth
+4. Skin
+5. General
 Enter your choice: 3
 
 Available doctors for Teeth:
-
-Dr. Raj
-
-Dr. Meena
+1. Dr. Raj
+2. Dr. Meena
 Enter doctor choice (or press Enter for default): 1
 
 Available Time Slots for Dr. Raj on 2025-06-27:
-
-10:00 AM to 10:30 AM
-
-10:30 AM to 11:00 AM
-...
+1. 10:00 AM to 10:30 AM
+2. 10:30 AM to 11:00 AM <br>
+... <br>
 Choose your time slot: 2
 
-✅ Appointment Confirmed!
-Name : Rahul
-Date : 2025-06-27
-Time : 10:30 AM to 11:00 AM
-Problem : Teeth
-Doctor : Dr. Raj
+✅ Appointment Confirmed! <br>
+Name     : Rahul <br>
+Date     : 2025-06-27 <br>
+Time     : 10:30 AM to 11:00 AM <br>
+Problem  : Teeth <br>
+Doctor   : Dr. Raj <br>
 
-Welcome to Appointment Scheduler
+Welcome to Appointment Scheduler <br>
 Are you Admin? (yes/no): yes
 
 === Admin Dashboard ===
-
-View All Appointments
-
-Add Appointment
-
-Cancel Appointment
-
-Update Appointment
-
-Search Appointment
-
-Exit
+1. View All Appointments
+2. Add Appointment
+3. Cancel Appointment
+4. Update Appointment
+5. Search Appointment
+6. Exit <br>
 Enter your choice: 1
 
---- All Appointments ---
-ID Name Date Time Problem Doctor
-1 Rahul 2025-06-27 10:30AM Teeth Dr. Raj
-Enter your choice: 3
-Enter Appointment ID to cancel: 1
+--- All Appointments --- <br>
+ID   Name         Date        Time     Problem      Doctor <br>
+1    Rahul        2025-06-27  10:30AM  Teeth        Dr. Raj <br>
+------------------------------------------------------------ <br>
 
-Appointment Details:
-Name : Rahul
-Date : 2025-06-27
-Time : 10:30:00
-Problem : Teeth
-Doctor : Dr. Raj
-Are you sure you want to cancel this appointment? (yes/no): yes
-✅ Appointment cancelled successfully.
+Enter your choice: 3 <br>
+Enter Appointment ID to cancel: 1 <br>
 
-Enter your choice: 5
-Enter name or ID to search: Rahul
-ID Name Date Time Problem Doctor
-1 Rahul 2025-06-27 10:30AM Teeth Dr. Raj
+Appointment Details: <br>
+Name    : Rahul <br>
+Date    : 2025-06-27 <br>
+Time    : 10:30:00 <br>
+Problem : Teeth <br>
+Doctor  : Dr. Raj <br>
+Are you sure you want to cancel this appointment? (yes/no): yes <br>
+✅ Appointment cancelled successfully. <br>
+
+Enter your choice: 5 <br>
+Enter name or ID to search: Rahul <br>
+ID   Name    Date        Time     Problem    Doctor <br>
+1    Rahul   2025-06-27  10:30AM  Teeth      Dr. Raj <br>
 
 
 ## 📂 Project Structure
