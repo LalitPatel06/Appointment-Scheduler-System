@@ -25,72 +25,89 @@ Welcome to Appointment Scheduler
 Are you Admin? (yes/no): no
 
 === User Dashboard ===
-1. Book New Appointment
-2. View All Appointments
-3. Cancel Appointment
-4. Exit <br>
+
+Book New Appointment
+
+View All Appointments
+
+Cancel Appointment
+
+Exit
 Enter your choice: 1
 
-Enter your name: Rahul <br>
+Enter your name: Rahul
 Select your problem:
-1. Chest
-2. Eye
-3. Teeth
-4. Skin
-5. General
+
+Chest
+
+Eye
+
+Teeth
+
+Skin
+
+General
 Enter your choice: 3
 
 Available doctors for Teeth:
-1. Dr. Raj
-2. Dr. Meena
+
+Dr. Raj
+
+Dr. Meena
 Enter doctor choice (or press Enter for default): 1
 
 Available Time Slots for Dr. Raj on 2025-06-27:
-1. 10:00 AM to 10:30 AM
-2. 10:30 AM to 11:00 AM
+
+10:00 AM to 10:30 AM
+
+10:30 AM to 11:00 AM
 ...
 Choose your time slot: 2
 
 ✅ Appointment Confirmed!
-Name     : Rahul
-Date     : 2025-06-27
-Time     : 10:30 AM to 11:00 AM
-Problem  : Teeth
-Doctor   : Dr. Raj
+Name : Rahul
+Date : 2025-06-27
+Time : 10:30 AM to 11:00 AM
+Problem : Teeth
+Doctor : Dr. Raj
 
 Welcome to Appointment Scheduler
 Are you Admin? (yes/no): yes
 
 === Admin Dashboard ===
-1. View All Appointments
-2. Add Appointment
-3. Cancel Appointment
-4. Update Appointment
-5. Search Appointment
-6. Exit
+
+View All Appointments
+
+Add Appointment
+
+Cancel Appointment
+
+Update Appointment
+
+Search Appointment
+
+Exit
 Enter your choice: 1
 
 --- All Appointments ---
-ID   Name         Date        Time     Problem      Doctor
-1    Rahul        2025-06-27  10:30AM  Teeth        Dr. Raj
-------------------------------------------------------------
-
+ID Name Date Time Problem Doctor
+1 Rahul 2025-06-27 10:30AM Teeth Dr. Raj
 Enter your choice: 3
 Enter Appointment ID to cancel: 1
 
 Appointment Details:
-Name    : Rahul
-Date    : 2025-06-27
-Time    : 10:30:00
+Name : Rahul
+Date : 2025-06-27
+Time : 10:30:00
 Problem : Teeth
-Doctor  : Dr. Raj
+Doctor : Dr. Raj
 Are you sure you want to cancel this appointment? (yes/no): yes
 ✅ Appointment cancelled successfully.
 
 Enter your choice: 5
 Enter name or ID to search: Rahul
-ID   Name    Date        Time     Problem    Doctor
-1    Rahul   2025-06-27  10:30AM  Teeth      Dr. Raj
+ID Name Date Time Problem Doctor
+1 Rahul 2025-06-27 10:30AM Teeth Dr. Raj
 
 
 ## 📂 Project Structure
