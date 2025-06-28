@@ -20,6 +20,9 @@ A console-based Java application to manage medical appointments efficiently with
 - **Connector:** JDBC
 - **Build Tool:** Manual (VS Code / Terminal)
 
+## 📂 Project Structure
+
+```plaintext
 AppointmentScheduler/
 │
 ├── src/
@@ -86,3 +89,5 @@ https://github.com/LalitPatel06/Appointment-Scheduler-System
 Lalit Patel
 Email: lalitpatel062002@gmail.com
 LinkedIn: www.linkedin.com/in/lalitpatel6260
+
+---
