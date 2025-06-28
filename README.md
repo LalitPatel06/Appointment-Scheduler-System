@@ -71,8 +71,8 @@ Are you Admin? (yes/no): yes
 Enter your choice: 1
 
 --- All Appointments --- <br>
-<pre> ``` ID  Name   Date        Time     Problem   Doctor <br>
-          1   Rahul  2025-06-27  10:30AM  Teeth     Dr. Raj ``` </pre>
+ID  Name   Date        Time     Problem   Doctor <br>
+1   Rahul  2025-06-27  10:30AM  Teeth     Dr. Raj <br>
 ------------------------------------------------------------ <br>
 
 Enter your choice: 3 <br>
