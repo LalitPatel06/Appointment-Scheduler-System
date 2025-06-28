@@ -37,12 +37,12 @@ Select your problem:
 2. Eye
 3. Teeth
 4. Skin
-5. General
+5. General <br>
 Enter your choice: 3
 
 Available doctors for Teeth:
 1. Dr. Raj
-2. Dr. Meena
+2. Dr. Meena <br>
 Enter doctor choice (or press Enter for default): 1
 
 Available Time Slots for Dr. Raj on 2025-06-27:
@@ -71,8 +71,7 @@ Are you Admin? (yes/no): yes
 Enter your choice: 1
 
 --- All Appointments --- <br>
-ID   Name         Date        Time     Problem      Doctor <br>
-1    Rahul        2025-06-27  10:30AM  Teeth        Dr. Raj <br>
+<pre> ``` ID Name Date Time Problem Doctor 1 Rahul 2025-06-27 10:30AM Teeth Dr. Raj ``` </pre>
 ------------------------------------------------------------ <br>
 
 Enter your choice: 3 <br>
