@@ -36,7 +36,7 @@ AppointmentScheduler/
 │   └── appointment_schema.sql
 │
 └── README.md
-
+```
 ---
 
 ### 🧑‍⚕️ Roles & Functionalities
