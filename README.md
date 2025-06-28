@@ -20,9 +20,6 @@ A console-based Java application to manage medical appointments efficiently with
 - **Connector:** JDBC
 - **Build Tool:** Manual (VS Code / Terminal)
 
-## 📂 Project Structure
-
-```plaintext
 AppointmentScheduler/
 │
 ├── src/
@@ -38,40 +35,31 @@ AppointmentScheduler/
 └── README.md
 
 ---
+
 🧑‍⚕️ Roles & Functionalities
-👤 User
-Book new appointment (name, problem, doctor, time)
 
-View appointment list
+👤 User  
+- Book new appointment (name, problem, doctor, time)  
+- View appointment list  
+- Cancel appointment by ID (with confirmation)  
 
-Cancel appointment by ID (with confirmation)
+🛡️ Admin  
+- View all appointments  
+- Add new appointments  
+- Cancel appointments (with confirmation)  
+- Update appointment problem/doctor/time  
+- Search appointments by ID or patient name  
 
-🛡️ Admin
-View all appointments
-
-Add new appointments
-
-Cancel appointments (with confirmation)
-
-Update appointment problem/doctor/time
-
-Search appointments by ID or patient name
-
-📌 Validations
-Name: 3–20 alphabetic characters only
-
-Problem selection: Numeric (1 to 5 only)
-
-Doctor selection: Numeric within list range
-
-Time slot: Cannot double-book
-
-ID validations for update/cancel/search
+📌 Validations  
+- Name: 3–20 alphabetic characters only  
+- Problem selection: Numeric (1 to 5 only)  
+- Doctor selection: Numeric within list range  
+- Time slot: Cannot double-book  
+- ID validations for update/cancel/search  
 
 🧪 Sample Appointment Table (MySQL)
-sql
-Copy
-Edit
+
+```sql
 CREATE TABLE appointments (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50),
@@ -80,14 +68,16 @@ CREATE TABLE appointments (
     description VARCHAR(100),
     doctor_name VARCHAR(50)
 );
+
 ⚙️ How to Run
-Import into VS Code or any Java IDE.
 
-Set up MySQL database using provided schema.
+Import into VS Code or any Java IDE
 
-Add your DB credentials in DBConnection.java.
+Set up MySQL database using provided schema
 
-Compile and run Main.java.
+Add your DB credentials in DBConnection.java
+
+Compile and run Main.java
 
 🔗 GitHub Repository
 https://github.com/LalitPatel06/Appointment-Scheduler-System
@@ -96,7 +86,3 @@ https://github.com/LalitPatel06/Appointment-Scheduler-System
 Lalit Patel
 Email: lalitpatel062002@gmail.com
 LinkedIn: www.linkedin.com/in/lalitpatel6260
-
-
-
-
