@@ -28,10 +28,10 @@ Are you Admin? (yes/no): no
 1. Book New Appointment
 2. View All Appointments
 3. Cancel Appointment
-4. Exit
+4. Exit <br>
 Enter your choice: 1
 
-Enter your name: Rahul
+Enter your name: Rahul <br>
 Select your problem:
 1. Chest
 2. Eye
