@@ -1,4 +1,3 @@
-# Appointment-Scheduler-System
 # 🗓️ Appointment Scheduler System
 
 A console-based Java application to manage medical appointments efficiently with role-based access for Admin and Users. It helps automate appointment bookings, cancellations, and updates with real-time validations and doctor specialization mapping.
